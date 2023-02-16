@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class LoginPage extends StatefulWidget {
   const LoginPage({super.key});
@@ -18,10 +19,15 @@ class _LoginPageState extends State<LoginPage> {
               mainAxisAlignment: MainAxisAlignment.center,
               // ignore: prefer_const_literals_to_create_immutables
               children: [
+                const Icon(Icons.android, size: 100),
+                const SizedBox(height: 75),
+
                 // Hello Again!
-                const Text(
+                Text(
                   "Hello Again!",
-                  style: TextStyle(fontWeight: FontWeight.bold, fontSize: 24),
+                  style: GoogleFonts.bebasNeue(
+                    fontSize: 52
+                  )
                 ),
                 const SizedBox(height: 10),
                 const Text(
