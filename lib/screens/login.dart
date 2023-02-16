@@ -9,6 +9,10 @@ class LoginPage extends StatefulWidget {
 }
 
 class _LoginPageState extends State<LoginPage> {
+  // text controller
+  final _emailController = TextEditingController();
+  final _passwordController = TextEditingController();
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -24,20 +28,16 @@ class _LoginPageState extends State<LoginPage> {
                 children: [
                   const Icon(Icons.android, size: 100),
                   const SizedBox(height: 75),
-            
+
                   // Hello Again!
-                  Text(
-                    "Hello Again!",
-                    style: GoogleFonts.bebasNeue(
-                      fontSize: 52
-                    )
-                  ),
+                  Text("Hello Again!",
+                      style: GoogleFonts.bebasNeue(fontSize: 52)),
                   const SizedBox(height: 10),
                   const Text(
                     'Welcome back, you\'ve been missed!',
                     style: TextStyle(fontSize: 20),
                   ),
-            
+
                   const SizedBox(height: 50),
                   // Email TextField
                   Padding(
@@ -60,7 +60,7 @@ class _LoginPageState extends State<LoginPage> {
                     ),
                   ),
                   const SizedBox(height: 10),
-                  
+
                   // Password TextField
                   Padding(
                     padding: const EdgeInsets.symmetric(horizontal: 25.0),
@@ -83,7 +83,7 @@ class _LoginPageState extends State<LoginPage> {
                     ),
                   ),
                   const SizedBox(height: 10),
-            
+
                   // Sign in Button
                   Padding(
                     padding: const EdgeInsets.symmetric(horizontal: 25),
@@ -106,22 +106,20 @@ class _LoginPageState extends State<LoginPage> {
                     ),
                   ),
                   const SizedBox(height: 25),
-            
+
                   // Not a member? Register now
                   Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: const [
                       Text(
-                        'Not a member?', 
-                        style: TextStyle(
-                          fontWeight: FontWeight.bold
-                        ),
+                        'Not a member?',
+                        style: TextStyle(fontWeight: FontWeight.bold),
                       ),
                       Text(
-                        ' Register now', 
+                        ' Register now',
                         style: TextStyle(
                           color: Colors.blue,
-                          fontWeight: FontWeight.bold 
+                          fontWeight: FontWeight.bold
                         )
                       ),
                     ],
