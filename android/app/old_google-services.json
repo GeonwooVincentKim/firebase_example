@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "182807787922",
-    "project_id": "fir-basic-login",
-    "storage_bucket": "fir-basic-login.appspot.com"
+    "project_number": "1085937458335",
+    "project_id": "fir-tutorial-58f03",
+    "storage_bucket": "fir-tutorial-58f03.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:182807787922:android:5b74c7aca77e9d1fa1694b",
+        "mobilesdk_app_id": "1:1085937458335:android:f98d1d6b3ebd79443196aa",
         "android_client_info": {
           "package_name": "com.example.flutter_firebase_first_example"
         }
       },
       "oauth_client": [
         {
-          "client_id": "182807787922-di8k2bs8g24o3l1vgvnuo2cl6q9qioab.apps.googleusercontent.com",
+          "client_id": "1085937458335-uecmdqjcl4d4bd8figsv4lops9ni15h0.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBeSVqbCPHakVnEpWDrSXdfwczITASnoo4"
+          "current_key": "AIzaSyDplNl9u-Dt7bb0PDKXvnXbEoo2archSww"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "182807787922-di8k2bs8g24o3l1vgvnuo2cl6q9qioab.apps.googleusercontent.com",
+              "client_id": "1085937458335-uecmdqjcl4d4bd8figsv4lops9ni15h0.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
