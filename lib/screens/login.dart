@@ -15,9 +15,9 @@ class _LoginPageState extends State<LoginPage> {
         body: SafeArea(
           child: Center(
             child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
               // ignore: prefer_const_literals_to_create_immutables
               children: [
-                const SizedBox(height: 25),
                 // Hello Again!
                 const Text(
                   "Hello Again!",
@@ -29,7 +29,7 @@ class _LoginPageState extends State<LoginPage> {
                   style: TextStyle(fontSize: 20),
                 ),
 
-                const SizedBox(height: 20),
+                const SizedBox(height: 50),
                 // Email TextField
                 Padding(
                   padding: const EdgeInsets.symmetric(horizontal: 25.0),
@@ -95,9 +95,28 @@ class _LoginPageState extends State<LoginPage> {
                       )
                     )
                   ),
-                )
+                ),
+                const SizedBox(height: 25),
 
                 // Not a member? Register now
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: const [
+                    Text(
+                      'Not a member?', 
+                      style: TextStyle(
+                        fontWeight: FontWeight.bold
+                      ),
+                    ),
+                    Text(
+                      ' Register now', 
+                      style: TextStyle(
+                        color: Colors.blue,
+                        fontWeight: FontWeight.bold 
+                      )
+                    ),
+                  ],
+                )
               ],
             ),
           ),
