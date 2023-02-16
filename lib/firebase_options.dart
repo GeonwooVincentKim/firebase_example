@@ -44,39 +44,39 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyCNR-9StKvAMxBzArGfGKgDKWvW8tREWTg',
-    appId: '1:182807787922:web:9bb2868ab90ee97ca1694b',
-    messagingSenderId: '182807787922',
-    projectId: 'fir-basic-login',
-    authDomain: 'fir-basic-login.firebaseapp.com',
-    storageBucket: 'fir-basic-login.appspot.com',
+    apiKey: 'AIzaSyCy-J2vo2iXUSDbQdYhOkYg8QYOY8kkEDk',
+    appId: '1:1085937458335:web:feeae9c6bc1d39f53196aa',
+    messagingSenderId: '1085937458335',
+    projectId: 'fir-tutorial-58f03',
+    authDomain: 'fir-tutorial-58f03.firebaseapp.com',
+    storageBucket: 'fir-tutorial-58f03.appspot.com',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyBeSVqbCPHakVnEpWDrSXdfwczITASnoo4',
-    appId: '1:182807787922:android:5b74c7aca77e9d1fa1694b',
-    messagingSenderId: '182807787922',
-    projectId: 'fir-basic-login',
-    storageBucket: 'fir-basic-login.appspot.com',
+    apiKey: 'AIzaSyDplNl9u-Dt7bb0PDKXvnXbEoo2archSww',
+    appId: '1:1085937458335:android:f98d1d6b3ebd79443196aa',
+    messagingSenderId: '1085937458335',
+    projectId: 'fir-tutorial-58f03',
+    storageBucket: 'fir-tutorial-58f03.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyBdRKoGnqomwBu5OaDaw0eG9R_684HLdjI',
-    appId: '1:182807787922:ios:232324fbd88b3d09a1694b',
-    messagingSenderId: '182807787922',
-    projectId: 'fir-basic-login',
-    storageBucket: 'fir-basic-login.appspot.com',
-    iosClientId: '182807787922-kpf2u55u3hu6gqcun96he9gjfho72vlq.apps.googleusercontent.com',
+    apiKey: 'AIzaSyCpOPejVVTWpChyE9zmIe3UNDhyzMRqesg',
+    appId: '1:1085937458335:ios:9532211f7af239143196aa',
+    messagingSenderId: '1085937458335',
+    projectId: 'fir-tutorial-58f03',
+    storageBucket: 'fir-tutorial-58f03.appspot.com',
+    iosClientId: '1085937458335-74luncbenisbjr5ilrm2teo2pg09ivps.apps.googleusercontent.com',
     iosBundleId: 'com.example.flutterFirebaseFirstExample',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyBdRKoGnqomwBu5OaDaw0eG9R_684HLdjI',
-    appId: '1:182807787922:ios:232324fbd88b3d09a1694b',
-    messagingSenderId: '182807787922',
-    projectId: 'fir-basic-login',
-    storageBucket: 'fir-basic-login.appspot.com',
-    iosClientId: '182807787922-kpf2u55u3hu6gqcun96he9gjfho72vlq.apps.googleusercontent.com',
+    apiKey: 'AIzaSyCpOPejVVTWpChyE9zmIe3UNDhyzMRqesg',
+    appId: '1:1085937458335:ios:9532211f7af239143196aa',
+    messagingSenderId: '1085937458335',
+    projectId: 'fir-tutorial-58f03',
+    storageBucket: 'fir-tutorial-58f03.appspot.com',
+    iosClientId: '1085937458335-74luncbenisbjr5ilrm2teo2pg09ivps.apps.googleusercontent.com',
     iosBundleId: 'com.example.flutterFirebaseFirstExample',
   );
 }
