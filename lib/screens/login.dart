@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class LoginPage extends StatefulWidget {
+  // final VoidCallback showRegister;
   const LoginPage({super.key});
 
   @override
@@ -136,12 +137,15 @@ class _LoginPageState extends State<LoginPage> {
                       'Not a member?',
                       style: TextStyle(fontWeight: FontWeight.bold),
                     ),
-                    Text(
-                      ' Register now',
-                      style: TextStyle(
-                        color: Colors.blue,
-                        fontWeight: FontWeight.bold
-                      )
+                    GestureDetector(
+                      onTap: ,
+                      child: Text(
+                        ' Register now',
+                        style: TextStyle(
+                          color: Colors.blue,
+                          fontWeight: FontWeight.bold
+                        )
+                      ),
                     ),
                   ],
                 )
